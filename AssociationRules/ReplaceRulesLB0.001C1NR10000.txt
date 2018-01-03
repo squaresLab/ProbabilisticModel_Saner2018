@@ -1,0 +1,21 @@
+
+Apriori
+=======
+
+Minimum support: 0 (9 instances)
+Minimum metric <confidence>: 1
+Number of cycles performed: 20
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 22
+
+Size of set of large itemsets L(2): 2
+
+Best rules found:
+
+
+=== Evaluation ===
+
+Elapsed time: 9.323s
+

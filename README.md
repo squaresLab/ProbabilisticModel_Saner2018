@@ -58,6 +58,8 @@ The last 19 lines of this file describe the mutation operator distribution.
 18.	Expression Replacer
 19.	Expression Add/Rem
 
+The AssociationRules folder contains the 10 fold cross validation results
+and the transactions files.
 ReplacementTransactions and MutOperatorsTransactions are files in csv and arff 
 format that describe the frequence of mutation operators and replacements gathered
 from the corpus and used to create the association rules.
