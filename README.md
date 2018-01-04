@@ -67,8 +67,12 @@ from the corpus and used to create the association rules.
 The scripts are documented internally and have numbers that show the order
 in which they should be executed.
 
-The QATestSuites are the held-out test suites used to evaluate quality of the 
-patches found.
+The QATestSuites folder contains the held-out test suites used to evaluate quality of the 
+patches found. The version of Evosuite used to build this test suites (1.0.3,
+latest when this study began) requires Java 8. 
+
+The Patches folder contains the modified patched files. These patches
+are built using Java 7
 
 analyzedRepos.txt shows the git repos that were analyzed to build the corpus
 of this paper. These were the most stared projects in August 2016.

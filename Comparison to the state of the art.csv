@@ -1,0 +1,84 @@
+,This study,,Journal paper,,Journal paper,,Journal paper,,Nopol website,,Nopol website,,Nopol website,
+,Prob All Mut,Number of failed held-out TC,GenProg,Number of failed held-out TC,TRP,Number of failed held-out TC,PAR,Number of failed held-out TC,NopolPC May2015,Pass Held Out Test Suite,NopolC May 2015,Pass Held Out Test Suite,Nopol March 2017,Number of failed held-out TC
+Evosuite 30 mins,,,,,,,,,,,,,,
+Closure 10,"sqncEx(795,797)",0,No patch found,,No patch found,,No patch found,,No patch found,,No patch found,,Found: https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#closure-10,0
+,"sqncEx(795,799)",0,,,,,,,,,,,,
+Closure 18,erm(539),0,No patch found,,No patch found,,No patch found,,No patch found,,No patch found,,Found: https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#closure-18,0
+Math 2,fr(80),0,No patch found,,No patch found,,MethodReplace: https://github.com/ProgramRepair/JavaRepair-results/blob/master/PARPatches/math2_Seed6_MethodReplacer_80_variant283patch.diff,0,No patch found,,No patch found,,Found: https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#math-2,0
+Time 19,"a(363,364)",0,Append: https://github.com/ProgramRepair/JavaRepair-results/blob/master/GenProgPatches/time19_Seed20_a_354_364_patch.diff,0,Append: https://github.com/ProgramRepair/JavaRepair-results/blob/master/TrpAutoRepairPatches/time19_Seed20_a_354_364_patch.diff,0,No patch found,,No patch found,,No patch found,,Found: https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#time-19,0
+,"r(363,364)",0,,,,,,,,,,,, 
+Chart 1,"sqncEx(601,12)",2,Replace: https://github.com/ProgramRepair/JavaRepair-results/blob/master/GenProgPatches/chart1_Seed17_r_601_1_patch.diff,1,Delete: https://github.com/ProgramRepair/JavaRepair-results/blob/master/TrpAutoRepairPatches/chart1_Seed1_d_603_patch.diff,1,ExpressAdd: https://github.com/ProgramRepair/JavaRepair-results/blob/master/PARPatches/chart1_Seed20_ExpressionAdd_601_variant139patch.diff,1,No patch found,,No patch found,,No patch found, 
+,d(602),1,Delete: https://github.com/ProgramRepair/JavaRepair-results/blob/master/GenProgPatches/chart1_Seed1_d_601_patch.diff,1,Replace: https://github.com/ProgramRepair/JavaRepair-results/blob/master/TrpAutoRepairPatches/chart1_Seed5_r_603_12_patch.diff,1,ExpressReplace: https://github.com/ProgramRepair/JavaRepair-results/blob/master/PARPatches/chart1_Seed3_ExpressionReplace_601_variant151patch.diff,1,,,,,, 
+,d(601),1,Replace: https://github.com/ProgramRepair/JavaRepair-results/blob/master/GenProgPatches/chart1_Seed20_r_603_177_patch.diff,1,Delete: https://github.com/ProgramRepair/JavaRepair-results/blob/master/TrpAutoRepairPatches/chart1_Seed7_d_601_patch.diff,1,, ,,,,,, 
+,"sqncEx(602,0)",1,Delete: https://github.com/ProgramRepair/JavaRepair-results/blob/master/GenProgPatches/chart1_Seed3_d_603_patch.diff,1,Delete: https://github.com/ProgramRepair/JavaRepair-results/blob/master/TrpAutoRepairPatches/chart1_Seed9_d_602_patch.diff,1,,,,,,,, 
+,er(601: (dataset != null) -->(this.plot == null)),1,Delete: https://github.com/ProgramRepair/JavaRepair-results/blob/master/GenProgPatches/chart1_Seed4_d_602_patch.diff,1,, ,,,,,,,, 
+,,,Replace: https://github.com/ProgramRepair/JavaRepair-results/blob/master/GenProgPatches/chart1_Seed8_r_601_12_patch.diff,1,, ,,,,,,,, 
+Closure 86,"SequenceExchanger(1247,345)",0,No patch found,,"r(1247,1059) (in variant230)",0,No patch found,,,,,,No patch found,
+,"SequenceExchanger(1247,1238)",0,,,, , ,,,,,,,
+Math 75,MethodReplacer(83),0,No patch found,,No patch found,,MethodReplacer(83) (in  variant68),0,,,,,No patch found,
+Math 85,"SequenceExchanger(34,13) ",2,d(34) (in variant6),2,d(36) (in variant0),2,ExpressionReplace(34: (fa * fb >= 0.0) -->(function == null)) (in  variant27),2,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#math-85,0
+,"SequenceExchanger(34,19)",2,"r(35,19) (in variant33)",2,d(34) (in variant1),2,ExpressionReplace(34: (fa * fb >= 0.0) -->(initial < lowerBound)) (in  variant73),2,,,,,,
+,StmtDelete(34) ,2,d(35) (in variant13),2,"r(36,16) (in variant1)",2,ExpressionReplace(34: (fa * fb >= 0.0) -->(lowerBound >= upperBound)) (in  variant24),2,,,,,,
+,StmtDelete(35) ,2,"r(34,32) (in variant26)",2,,,ExpressionAdd(34: (fa * fb >= 0.0) && (initial > upperBound)) (in  variant30),2,,,,,,
+,,,d(36) (in variant19),2,,,ExpressionReplace(34: (fa * fb >= 0.0) -->(initial < lowerBound || initial > upperBound || lowerBound >= upperBound)) (in  variant3),2,,,,,,
+,,,"r(34,33) (in variant10)",2,,,ExpressionReplace(34: (fa * fb >= 0.0) -->(initial > upperBound)) (in  variant1),2,,,,,,
+,,,"r(35,32) (in variant10) https://github.com/ProgramRepair/JavaRepair-results/blob/master/GenProgPatches/math85_Seed10_r_35_32_patch.diff",2,,,ExpressionAdd(34: (fa * fb >= 0.0) && (initial < lowerBound || initial > upperBound || lowerBound >= upperBound)) (in  variant12),2,,,,,,
+,,,"r(35,29) (in variant18)",2,,,ExpressionAdd(34: (fa * fb >= 0.0) && (lowerBound >= upperBound)) (in  variant24),2,,,,,,
+Lang 33,NullCheckAdder(329),0,No patch found, ,No patch found,,NullCheckAdder(327) (in  variant4),0,,,,,No patch found,
+,,,,,,,,,,,,,,
+Bugs for which our approach did not find a patch but other approaches did,,,,,,,,,,,,,,
+Closure 14,No patch found,,No patch found,,No patch found,,No patch found,,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#closure-14,0
+Closure 20,No patch found,,No patch found,,No patch found,,No patch found,,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#closure-20,0
+Closure 31,No patch found,,No patch found,,No patch found,,No patch found,,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#closure-31,0
+Closure 62,No patch found,,No patch found,,No patch found,,closure62_Seed5_ExpressionRemove_31_variant11patch.diff,0,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#closure-62,0
+Closure 63,No patch found,,No patch found,,No patch found,,closure63_Seed5_ExpressionRemove_31_variant11patch.diff,0,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#closure-63,0
+Closure 111,No patch found,,No patch found,,No patch found,,No patch found,,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#closure-111,0
+Closure 113,No patch found,,No patch found,,No patch found,,No patch found,,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#closure-113,0
+Closure 119,No patch found,,No patch found,,No patch found,,No patch found,,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#closure-119,0
+Closure 130,No patch found,,No patch found,,No patch found,,No patch found,,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#closure-130,0
+Closure 132,No patch found,,No patch found,,No patch found,,No patch found,,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#closure-132,0
+Lang 24,No patch found,,lang24_Seed10_a_564_525_patch.diff,0,No patch found,,No patch found,,,,,,No patch found,
+Lang 33,No patch found,,No patch found,,No patch found,,lang33_Seed7_NullCheckAdder_327_variant4patch.diff,0,,,,,No patch found,
+Lang 43,No patch found,,lang43_Seed14_r_189_182_patch.diff,1,lang43_Seed14_r_187_172_patch.diff,1,No patch found,,,,,,No patch found,
+,,,lang43_Seed16_r_187_172_patch.diff,1,lang43_Seed1_a_29_172_patch.diff,0,,,,,,,,
+,,,lang43_Seed1_r_188_182_patch.diff,1,lang43_Seed3_r_189_172_patch.diff,1,,,,,,,,
+,,,lang43_Seed3_a_29_56_patch.diff,0,lang43_Seed7_r_188_172_patch.diff,1,,,,,,,,
+,,,lang43_Seed4_r_189_172_patch.diff,1,,,,,,,,,,
+,,,lang43_Seed7_r_188_172_patch.diff,1,,,,,,,,,,
+Lang 51,No patch found,,lang51_Seed12_a_183_47_patch.diff,0,No patch found,,lang51_Seed11_ExpressionAdd_180_variant326patch.diff,0,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#lang-51,0
+,,,lang51_Seed7_a_183_210_patch.diff,0,,,lang51_Seed7_ExpressionAdd_183_variant238patch.diff,0,,,,,,
+Lang 58,No patch found,,No patch found,,No patch found,,lang58_Seed12_ExpressionReplace_88_variant27patch.diff,2,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#lang-58,1
+,,,,,,,lang58_Seed15_ExpressionReplace_87_variant15patch.diff,2,,,,,,
+Lang 59,No patch found,,lang59_Seed9_r_346_12_patch.diff,1,lang59_Seed12_r_346_257_patch.diff,0,lang59_Seed2_ParameterReplacer_351_variant193patch.diff,0,,,,,No patch found,0
+Math 2,No patch found,,No patch found,,No patch found,,math2_Seed6_MethodReplacer_80_variant283patch.diff,0,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#math-2,0
+Math 5,No patch found,,No patch found,,No patch found,,math5_Seed2_ExpressionAdd_96_variant42patch.diff,3,,,,,No patch found,
+,,,,,,,math5_Seed5_ExpressionReplace_96_variant21patch.diff,3,,,,,,
+Math 33,No patch found,,No patch found,,No patch found,,No patch found,,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#math-33,0
+Math 41,No patch found,,No patch found,,No patch found,,No patch found,,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#math-41,1
+Math 57,No patch found,,No patch found,,No patch found,,No patch found,,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#math-57,0
+Math 69,No patch found,,No patch found,,No patch found,,No patch found,,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#math-69,0
+Math 75,No patch found,,No patch found,,No patch found,,math75_Seed6_MethodReplacer_83_variant68patch.diff,0,,,,,No patch found,
+Math 80,No patch found,,math80_Seed11_a_37_448_patch.diff,2,math80_Seed10_r_535_9_patch.diff,2,math80_Seed6_ParameterReplacer_350_variant243patch.diff,2,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#math-80,2
+,,,math80_Seed12_a_209_39_patch.diff,7,math80_Seed11_r_537_774_patch.diff,2,,,,,,,,
+,,,math80_Seed13_r_540_518_patch.diff,2,math80_Seed12_r_347_392_patch.diff,2,,,,,,,,
+,,,math80_Seed14_a_561_448_patch.diff,2,math80_Seed14_r_538_859_patch.diff,2,,,,,,,,
+,,,math80_Seed17_d_538_patch.diff,2,math80_Seed15_r_535_905_patch.diff,2,,,,,,,,
+,,,math80_Seed18_r_537_519_patch.diff,2,math80_Seed17_r_536_38_patch.diff,2,,,,,,,,
+,,,math80_Seed19_r_540_197_patch.diff,2,math80_Seed18_r_536_642_patch.diff,2,,,,,,,,
+,,,math80_Seed1_d_533_patch.diff,2,math80_Seed19_r_536_517_patch.diff,2,,,,,,,,
+,,,math80_Seed1_d_533_patch.diff,2,math80_Seed1_d_536_patch.diff,2,,,,,,,,
+,,,math80_Seed4_r_350_38_patch.diff,2,math80_Seed2_r_537_772_patch.diff,2,,,,,,,,
+,,,math80_Seed5_d_532_patch.diff,2,math80_Seed3_d_535_patch.diff,2,,,,,,,,
+,,,math80_Seed6_d_350_patch.diff,2,math80_Seed7_r_536_510_patch.diff,2,,,,,,,,
+,,,math80_Seed7_r_540_899_patch.diff,2,math80_Seed9_d_538_patch.diff,2,,,,,,,,
+Math 85,No patch found,,math85_Seed10_r_35_32_patch.diff,1,math85_Seed16_r_36_16_patch.diff,1,math85_Seed14_ExpressionAdd_34_variant12patch.diff,1,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#math-85,1
+,,,math85_Seed13_r_35_29_patch.diff,1,math85_Seed1_d_36_patch.diff,1,math85_Seed1_ExpressionReplace_34_variant27patch.diff,1,,,,,,
+,,,math85_Seed1_d_34_patch.diff,1,math85_Seed9_d_34_patch.diff,1,math85_Seed20_ExpressionAdd_34_variant24patch.diff,1,,,,,,
+,,,math85_Seed3_r_35_19_patch.diff,1,,,math85_Seed2_ExpressionReplace_34_variant73patch.diff,1,,,,,,
+,,,math85_Seed4_d_35_patch.diff,1,,,math85_Seed3_ExpressionReplace_34_variant24patch.diff,1,,,,,,
+,,,math85_Seed5_r_34_32_patch.diff,1,,,math85_Seed4_ExpressionAdd_34_variant30patch.diff,1,,,,,,
+,,,math85_Seed6_d_36_patch.diff,1,,,math85_Seed7_ExpressionReplace_34_variant3patch.diff,1,,,,,,
+,,,math85_Seed9_r_34_33_patch.diff,1,,,math85_Seed8_ExpressionReplace_34_variant1patch.diff,1,,,,,,
+Math 105,No patch found,,No patch found,,No patch found,,No patch found,,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#math-105,1
+Time 4,No patch found,,No patch found,,No patch found,,No patch found,,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#time-4,1
+Time 16,No patch found,,No patch found,,No patch found,,No patch found,,,,,,https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2017-march#time-16,0
