@@ -72,7 +72,8 @@ patches found. The version of Evosuite used to build this test suites (1.0.3,
 latest when this study began) requires Java 8. 
 
 The Patches folder contains the modified patched files. These patches
-are built using Java 7
+are built using Java 7 and genprog4java available in the repo:
+https://github.com/squaresLab/genprog4java
 
 analyzedRepos.txt shows the git repos that were analyzed to build the corpus
 of this paper. These were the most stared projects in August 2016.
