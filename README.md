@@ -78,7 +78,7 @@ https://github.com/squaresLab/genprog4java
 analyzedRepos.txt shows the git repos that were analyzed to build the corpus
 of this paper. These were the most stared projects in August 2016.
 
-#Regarding how to evaluate the quality of the generated patches
+# Regarding how to evaluate the quality of the generated patches
 
 We created held out test suites using EvoSuite
 with a 30-minute budget using the human-repaired “after-fix”
@@ -99,7 +99,8 @@ $SEED is a random seed to create the test suites (e.g., 1,2,3,etc)
 $OUTPUT is the folder where the test suite will be created
 $BUDGET is the time budget to create the test suite (in seconds)
 
-#To test the quality of patches generated, you can run the following command while located in the patch folder:
+# To test the quality of patches generated:
+You can run the following command while located in the patch folder:
 defects4j test -s "$HELDOUT"
 
 where $HELDOUT is the path for the held out test suite
