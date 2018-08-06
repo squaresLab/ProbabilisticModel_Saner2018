@@ -86,7 +86,8 @@ version of each Defects4J bug as the behavioral oracle. We
 use Cobertura to calculate test suite coverage, again over the
 “after-fix” class that contains the human fix.
 
-To create a 30 min Evosuite held out test suite through Defects4j you can run the following command:
+To create a 30 min Evosuite held out test suite through Defects4j you can go to your Defects4j installation folder,
+then navigate to "framework/bin/" and run the following command:
 
 perl run_evosuite.pl -p "$PROJECT" -v "$BUGNUMBER"f -n "$SEED" -o "$OUTPUT" -c branch -b "$BUDGET"
 
