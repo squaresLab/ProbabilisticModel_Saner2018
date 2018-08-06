@@ -104,6 +104,7 @@ where:
 
 # To test the quality of patches generated:
 You can run the following command while located in the patch folder:
+
 defects4j test -s "$HELDOUT"
 
 where $HELDOUT is the path for the held out test suite
