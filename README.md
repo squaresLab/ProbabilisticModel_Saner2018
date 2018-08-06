@@ -87,9 +87,11 @@ use Cobertura to calculate test suite coverage, again over the
 “after-fix” class that contains the human fix.
 
 To create a 30 min Evosuite held out test suite through Defects4j you can run the following command:
+
 perl run_evosuite.pl -p "$PROJECT" -v "$BUGNUMBER"f -n "$SEED" -o "$OUTPUT" -c branch -b "$BUDGET"
 
 Followed by:
+
 perl fix_test_suite.pl -p "$PROJECT" -d "$OUTPUT"/"$PROJECT"/evosuite-branch/"$SEED"/ -v "$BUGNUMBER"f
 
 where:
