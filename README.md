@@ -96,11 +96,11 @@ Followed by:
 perl fix_test_suite.pl -p "$PROJECT" -d "$OUTPUT"/"$PROJECT"/evosuite-branch/"$SEED"/ -v "$BUGNUMBER"f
 
 where:
-$PROJECT is the defects4j project you are creating the test suite for (e.g., Math, Lang, etc)
-$BUGNUMER is the id of the bug in the defects4j dataset (e.g., 1,2,3,etc)
-$SEED is a random seed to create the test suites (e.g., 1,2,3,etc)
-$OUTPUT is the folder where the test suite will be created
-$BUDGET is the time budget to create the test suite (in seconds)
+* $PROJECT is the defects4j project you are creating the test suite for (e.g., Math, Lang, etc)
+* $BUGNUMER is the id of the bug in the defects4j dataset (e.g., 1,2,3,etc)
+* $SEED is a random seed to create the test suites (e.g., 1,2,3,etc)
+* $OUTPUT is the folder where the test suite will be created
+* $BUDGET is the time budget to create the test suite (in seconds)
 
 # To test the quality of patches generated:
 You can run the following command while located in the patch folder:
